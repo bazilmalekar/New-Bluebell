@@ -1,0 +1,15 @@
+header{
+    height: 38rem;
+    background-image: url("/src/images/headerBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-top: -5.5rem;
+    .header-text{
+        color: $header-text;
+        text-align: center;
+        padding-top: 16rem;
+    }
+}

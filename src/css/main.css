@@ -1,0 +1,207 @@
+header {
+  height: 38rem;
+  background-image: url("/src/images/headerBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  margin-top: -5.5rem; }
+  header .header-text {
+    color: red;
+    text-align: center;
+    padding-top: 16rem; }
+
+.h-nav {
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+  .h-nav a {
+    color: #fff !important; }
+  @media only screen and (max-width: 960px) {
+    .h-nav {
+      text-align: center; } }
+
+.r-nav a {
+  color: #fff !important; }
+@media only screen and (max-width: 960px) {
+  .r-nav {
+    text-align: center; } }
+
+.custom-nav-list {
+  padding: 1rem; }
+
+.custom_icon {
+  color: blue;
+  font-size: 2rem;
+  padding: 0.5rem; }
+  .custom_icon:hover {
+    color: brown;
+    transform: rotate(45deg); }
+
+.home-mainbody {
+  padding-top: 4%;
+  padding-bottom: 3%; }
+  .home-mainbody .column-1 {
+    text-align: center;
+    margin: 0 auto; }
+    .home-mainbody .column-1 img {
+      height: 20rem;
+      width: 25rem;
+      border-radius: 0.5rem;
+      box-shadow: 1px 8px 15px 4px #888888;
+      margin-bottom: 2rem; }
+      .home-mainbody .column-1 img:hover {
+        box-shadow: none; }
+    .home-mainbody .column-1 .description {
+      width: 85%;
+      text-align: center;
+      margin: 2rem auto; }
+    .home-mainbody .column-1 .figure {
+      height: 20rem;
+      width: 25rem; }
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; }
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; }
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg); }
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black; }
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg); }
+
+.contact_us {
+  text-align: center;
+  color: #fff;
+  background-color: #5F7A61; }
+  .contact_us span {
+    padding: 0 1.5rem; }
+  .contact_us .giff {
+    height: 5rem; }
+  .contact_us .fbIcon {
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff; }
+    .contact_us .fbIcon:visited {
+      color: #fff; }
+
+.nonveg {
+  height: 20rem;
+  background-image: url("/src/images/menuNonveg.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed; }
+
+.menu-div {
+  height: 40rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  background-color: #D5EEBB;
+  box-shadow: 0 8px 15px 1px #888888; }
+
+.veg {
+  height: 25rem;
+  background-image: url("/src/images/menuVeg.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed; }
+
+.restaurant_gallery {
+  text-align: center;
+  margin-top: 6rem; }
+
+.testimage {
+  height: 10rem;
+  width: 15rem;
+  border-radius: 0.25rem;
+  margin: 1rem 1rem;
+  transform: scale(1);
+  transition: 0.5s; }
+  .testimage:hover {
+    box-shadow: 0 10px 10px 3px #888888;
+    transform: scale(1.1); }
+
+.event-section {
+  margin-top: 2rem; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color: #F6A705;
+  background-color: #444941;
+  height: 3.5rem; }
+
+.inherent {
+  color: #fff; }
+
+.scrollBtn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  background-color: #444941;
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+  transition: all 0.3s; }
+
+.scrollBtn.active {
+  bottom: 30px;
+  pointer-events: auto;
+  opacity: 0.5; }
+  .scrollBtn.active:hover {
+    opacity: 1;
+    background-color: #5d6459; }
+
+.custom-icon {
+  font-size: 1.5rem; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D5EEBB; }
+
+.custom-container {
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*# sourceMappingURL=main.css.map */

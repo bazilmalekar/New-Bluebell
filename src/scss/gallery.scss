@@ -1,0 +1,42 @@
+.restaurant_gallery{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.testimage{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 0.25rem;
+    margin: 1rem 1rem;
+    transform: scale(1);
+    transition: 0.5s;
+    &:hover{
+        box-shadow: 0 10px 10px 3px #888888;
+        transform: scale(1.1);
+    }
+}
+
+.event-section{
+    margin-top: 2rem;
+}
+
+//===SAMPLE===
+
+// .overflowtest{
+//     height: 15re;
+//     width: 20rem;
+//     overflow: hidden;
+//     .testimage1{
+//         width: 100%;
+//         height: auto;
+//         transform: scale(1);
+//         transition: 0.5s;
+//         transition-timing-function: ease-in-out;
+//         &:hover{
+//             transform: scale(1.5);
+//         }
+//     }
+// }
+
+
+

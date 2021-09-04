@@ -1,12 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./css/main.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import {BrowserRouter} from "react-router-dom";
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <BrowserRouter>
+  <SimpleReactLightbox>
+  <App />
+  </SimpleReactLightbox>
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

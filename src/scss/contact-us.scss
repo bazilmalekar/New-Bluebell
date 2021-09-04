@@ -1,0 +1,22 @@
+.contact_us{
+    text-align: center;
+    color: $contactUs-color;
+    background-color: $contactUs-background-color;
+    span{
+        padding: 0 1.5rem;
+    }
+    .giff{
+        height: 5rem;
+    }
+    .fbIcon{
+        font-size: 2rem;
+        cursor: pointer;
+        text-decoration: none;
+        color: $contactus-icon-color;
+        &:visited{
+            color: $contactus-icon-color;
+        }
+    }
+}
+
+

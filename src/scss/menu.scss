@@ -1,0 +1,26 @@
+.nonveg{
+    height: 20rem;
+    background-image: url("/src/images/menuNonveg.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.menu-div{
+    height: 40rem;
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    background-color: $body-background-color;
+    box-shadow: 0 8px 15px 1px #888888;
+}
+
+.veg{
+    height: 25rem;
+    background-image: url("/src/images/menuVeg.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,28 @@
+.scrollBtn{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: $scroll-top-color;
+    background-color: $scorll-top-background;
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.scrollBtn.active{
+    bottom: 30px;
+    pointer-events: auto;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+        background-color: lighten($color: $scorll-top-background, $amount: 10%);
+    }
+}
+.custom-icon{
+    font-size: 1.5rem;
+}

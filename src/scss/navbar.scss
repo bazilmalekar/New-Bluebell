@@ -1,0 +1,35 @@
+.h-nav{
+    background-color: transparentize($color: $hnav-background, $amount: 0.5) !important;
+    
+    a{
+        color: $hnav-link-color !important;
+    }
+
+    @media only screen and(max-width: 960px){
+        text-align: center;
+    }
+}
+
+.r-nav{
+    a{
+        color: $hnav-link-color !important;
+    }
+
+    @media only screen and(max-width: 960px){
+        text-align: center;
+    }
+}
+
+.custom-nav-list{
+    padding: 1rem;
+}
+
+.custom_icon{
+    color: blue;
+    font-size: 2rem;
+    padding: 0.5rem;
+    &:hover{
+        color: brown;
+        transform: rotate(45deg);
+    }
+}

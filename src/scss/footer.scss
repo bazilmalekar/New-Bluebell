@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: $footer-color;
+    background-color: $footer-background0color;
+    height: 3.5rem;
+}
+
+.inherent{
+    color: #fff;
+}
