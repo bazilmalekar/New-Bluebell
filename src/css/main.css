@@ -13,28 +13,35 @@ header {
     padding-top: 16rem; }
 
 .h-nav {
-  background-color: rgba(0, 0, 0, 0.5) !important; }
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  transition-timing-function: ease-in-out;
+  transition: all 0.3s; }
   .h-nav a {
     color: #fff !important; }
   @media only screen and (max-width: 960px) {
     .h-nav {
       text-align: center; } }
 
-.r-nav a {
-  color: #fff !important; }
-@media only screen and (max-width: 960px) {
-  .r-nav {
-    text-align: center; } }
+.h-nav.change {
+  background-color: #152D35 !important; }
+
+.r-nav {
+  background-color: #152D35 !important; }
+  .r-nav a {
+    color: #fff !important; }
+  @media only screen and (max-width: 960px) {
+    .r-nav {
+      text-align: center; } }
 
 .custom-nav-list {
   padding: 1rem; }
 
 .custom_icon {
-  color: blue;
+  color: #F0A500;
   font-size: 2rem;
   padding: 0.5rem; }
   .custom_icon:hover {
-    color: brown;
+    color: #d79300;
     transform: rotate(45deg); }
 
 .home-mainbody {
@@ -173,7 +180,7 @@ footer {
   border: none;
   border-radius: 0.25rem;
   color: #ffffff;
-  background-color: #444941;
+  background-color: #152D35;
   opacity: 0;
   z-index: 1;
   pointer-events: none;
@@ -185,10 +192,13 @@ footer {
   opacity: 0.5; }
   .scrollBtn.active:hover {
     opacity: 1;
-    background-color: #5d6459; }
+    background-color: #234c5a; }
 
 .custom-icon {
   font-size: 1.5rem; }
+
+.menu-table table {
+  display: inline; }
 
 html {
   scroll-behavior: smooth; }

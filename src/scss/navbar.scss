@@ -8,13 +8,19 @@
     @media only screen and(max-width: 960px){
         text-align: center;
     }
+    transition-timing-function: ease-in-out;
+    transition: all 0.3s;
+}
+.h-nav.change{
+    background-color: $rnav-background-color !important;
 }
 
+
 .r-nav{
+    background-color: $rnav-background-color !important;
     a{
         color: $hnav-link-color !important;
     }
-
     @media only screen and(max-width: 960px){
         text-align: center;
     }
@@ -25,11 +31,11 @@
 }
 
 .custom_icon{
-    color: blue;
+    color: #F0A500;
     font-size: 2rem;
     padding: 0.5rem;
     &:hover{
-        color: brown;
+        color: darken($color: #F0A500, $amount: 5%);
         transform: rotate(45deg);
     }
 }

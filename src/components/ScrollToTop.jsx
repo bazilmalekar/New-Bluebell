@@ -10,9 +10,17 @@ const ScrollToTop= ()=>{
         setScrollTop(false);
     }
   });
+
+  const scrollBack = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
     return(
         <div>
-            <button className={scrollTop ? "scrollBtn active" : "scrollBtn"}><i class="fas fa-angle-double-up custom-icon"></i></button>
+            <button onClick={scrollBack} className={scrollTop ? "scrollBtn active" : "scrollBtn"}><i class="fas fa-angle-double-up custom-icon"></i></button>
         </div>
     );
 }
