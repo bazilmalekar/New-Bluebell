@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/New-Bluebell/static/css/main.b2504553.chunk.css",
+    "main.js": "/New-Bluebell/static/js/main.f28171a5.chunk.js",
+    "main.js.map": "/New-Bluebell/static/js/main.f28171a5.chunk.js.map",
+    "runtime-main.js": "/New-Bluebell/static/js/runtime-main.26f3ad45.js",
+    "runtime-main.js.map": "/New-Bluebell/static/js/runtime-main.26f3ad45.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/New-Bluebell/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.391ab11d.chunk.js": "/New-Bluebell/static/js/2.391ab11d.chunk.js",
+    "static/js/2.391ab11d.chunk.js.map": "/New-Bluebell/static/js/2.391ab11d.chunk.js.map",
+    "static/js/3.09231039.chunk.js": "/New-Bluebell/static/js/3.09231039.chunk.js",
+    "static/js/3.09231039.chunk.js.map": "/New-Bluebell/static/js/3.09231039.chunk.js.map",
+    "index.html": "/New-Bluebell/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/New-Bluebell/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.b2504553.chunk.css.map": "/New-Bluebell/static/css/main.b2504553.chunk.css.map",
+    "static/js/2.391ab11d.chunk.js.LICENSE.txt": "/New-Bluebell/static/js/2.391ab11d.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/New-Bluebell/static/media/menuVeg.43e1ed30.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26f3ad45.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.391ab11d.chunk.js",
+    "static/css/main.b2504553.chunk.css",
+    "static/js/main.f28171a5.chunk.js"
+  ]
+}
