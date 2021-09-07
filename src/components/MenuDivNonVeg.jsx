@@ -8,7 +8,9 @@ const MenuDivNonVeg = () => {
     return (
         <div className="custom-container">
         <div className="menu-div">
-            <h1>This is Menu</h1>
+            <div className="menu-title">
+            <h1>Non-Veg</h1>
+            </div>
             <MenuTableNonVeg />
         </div>
         </div>

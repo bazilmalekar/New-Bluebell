@@ -32,7 +32,7 @@ const Navbar = (props) => {
         <div>
             <nav className={navValue ? "navbar navbar-expand-lg fixed-top navbar-dark bg-dark r-nav" : scroll ? scrollChange : scrollClass}>
                 <Zoom in={true}>
-                <NavLink onClick={changeDefault} className="navbar-brand" to="/home"><i class="fas fa-bell custom_icon"></i> New BlueBell</NavLink>
+                <HashLink onClick={changeDefault} className="navbar-brand" to="/home#header"><i class="fas fa-bell custom_icon"></i> New BlueBell</HashLink>
                 </Zoom>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -41,16 +41,16 @@ const Navbar = (props) => {
              <div className="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul className="navbar-nav ml-auto custom-nav-list">
                     <li className="nav-item">
-                    <HashLink on onClick={changeDefault}  className="nav-link" to="/home#header">Home</HashLink>
+                    <HashLink on onClick={changeDefault}  className="nav-link" to="/New-Bluebell/home#header">Home</HashLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink onClick={changeNav} className="nav-link" to="/menu">Menu</NavLink>
+                    <NavLink onClick={changeNav} className="nav-link" to="/New-Bluebell/menu">Menu</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink onClick={changeNav} className="nav-link" to="/gallery">Gallery</NavLink>
+                    <NavLink onClick={changeNav} className="nav-link" to="/New-Bluebell/gallery">Gallery</NavLink>
                     </li>
                     <li className="nav-item">
-                    <HashLink className="nav-link" to="/home#contact_us">Contact Us</HashLink>
+                    <HashLink className="nav-link" to="/New-Bluebell/home#contact_us">Contact Us</HashLink>
                     </li>
                 </ul>
             </div>

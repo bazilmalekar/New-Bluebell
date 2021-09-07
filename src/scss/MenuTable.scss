@@ -1,6 +1,15 @@
 .menu-table{
-    
-    table{
-        display: inline;
+    .table{
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: wrap;
+        // justify-content: start;
+        // align-items: stretch;
+    }
+    .tableColumn{
+        // margin: 0 3rem;
+    }
+    .headGap{
+        width: 4rem;
     }
 }

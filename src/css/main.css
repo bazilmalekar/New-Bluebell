@@ -124,14 +124,6 @@ header {
   background-position-y: center;
   background-attachment: fixed; }
 
-.menu-div {
-  height: 40rem;
-  margin-top: -1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 1rem;
-  background-color: #D5EEBB;
-  box-shadow: 0 8px 15px 1px #888888; }
-
 .veg {
   height: 25rem;
   background-image: url("/src/images/menuVeg.jpg");
@@ -139,6 +131,17 @@ header {
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed; }
+
+.menu-title {
+  text-align: center; }
+
+.menu-div {
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem 0;
+  border-radius: 1rem;
+  background-color: #D5EEBB;
+  box-shadow: 0 8px 15px 1px #888888; }
 
 .restaurant_gallery {
   text-align: center;
@@ -156,7 +159,8 @@ header {
     transform: scale(1.1); }
 
 .event-section {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 footer {
   display: flex;
@@ -197,8 +201,8 @@ footer {
 .custom-icon {
   font-size: 1.5rem; }
 
-.menu-table table {
-  display: inline; }
+.menu-table .headGap {
+  width: 4rem; }
 
 html {
   scroll-behavior: smooth; }

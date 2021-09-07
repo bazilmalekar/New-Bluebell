@@ -14,9 +14,11 @@ function App() {
     <Navbar />
     <ScrollToTop />
     <Switch>
-    <Route exact path="/home" component={Home} />
-    <Route path="/menu"><Menu /></Route>
-    <Route path="/gallery" component={Gallery} />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/New-Bluebell" component={Home} />
+    <Route path="/New-Bluebell/home" component={Home} />
+    <Route path="/New-Bluebell/menu" component={Menu} />
+    <Route path="/New-Bluebell/gallery" component={Gallery} />
     </Switch>
     <Footer />
     </div>
