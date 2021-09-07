@@ -15,10 +15,10 @@ const MainBody = () => {
                 <div className="flip-box">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                        <img src="/images/dummy.jpg" alt="Reataurent image" />
+                        <img src="https://bazilmalekar.github.io/New-Bluebell/images/dummy.jpg" alt="Reataurent image" />
                         </div>
                         <div className="flip-box-back">
-                        <img src="/images/dummy.jpg" alt="Reataurent image" />
+                        <img src="https://bazilmalekar.github.io/New-Bluebell/images/dummy.jpg" alt="Reataurent image" />
                         </div>
                       </div>
                     </div>
@@ -35,10 +35,10 @@ const MainBody = () => {
                 <div class="flip-box">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                        <img src="/images/dummy.jpg" alt="Reataurent image"/>
+                        <img src="https://bazilmalekar.github.io/New-Bluebell/images/dummy.jpg" alt="Reataurent image"/>
                         </div>
                         <div className="flip-box-back">
-                        <img src="/images/dummy.jpg" alt="Reataurent image"/>
+                        <img src="https://bazilmalekar.github.io/New-Bluebell/images/dummy.jpg" alt="Reataurent image"/>
                         </div>
                       </div>
                     </div>
