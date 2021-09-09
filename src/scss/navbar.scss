@@ -1,5 +1,6 @@
 .h-nav{
     background-color: transparentize($color: $hnav-background, $amount: 0.5) !important;
+    z-index: 1;
     
     a{
         color: $hnav-link-color !important;

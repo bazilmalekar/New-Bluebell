@@ -1,8 +1,8 @@
 header {
   height: 38rem;
+  width: 100%;
   background-image: url("/src/images/headerBackground.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
@@ -14,6 +14,7 @@ header {
 
 .h-nav {
   background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 1;
   transition-timing-function: ease-in-out;
   transition: all 0.3s; }
   .h-nav a {
@@ -45,24 +46,25 @@ header {
     transform: rotate(45deg); }
 
 .home-mainbody {
+  height: auto;
   padding-top: 4%;
   padding-bottom: 3%; }
-  .home-mainbody .column-1 {
+  .home-mainbody .column {
     text-align: center;
     margin: 0 auto; }
-    .home-mainbody .column-1 img {
+    .home-mainbody .column img {
       height: 20rem;
       width: 25rem;
       border-radius: 0.5rem;
       box-shadow: 1px 8px 15px 4px #888888;
       margin-bottom: 2rem; }
-      .home-mainbody .column-1 img:hover {
+      .home-mainbody .column img:hover {
         box-shadow: none; }
-    .home-mainbody .column-1 .description {
+    .home-mainbody .column .description {
       width: 85%;
       text-align: center;
       margin: 2rem auto; }
-    .home-mainbody .column-1 .figure {
+    .home-mainbody .column .figure {
       height: 20rem;
       width: 25rem; }
 
@@ -163,6 +165,10 @@ header {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
+@media only screen and (max-width: 992px) {
+  .testimage {
+    height: 15rem;
+    width: 25rem; } }
 footer {
   display: flex;
   flex-direction: row;

@@ -21,6 +21,12 @@
     margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 992px){
+    .testimage{
+        height: 15rem;
+        width: 25rem;
+    }
+}
 //===SAMPLE===
 
 // .overflowtest{
