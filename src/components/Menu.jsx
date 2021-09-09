@@ -5,7 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 
-const Menu = (props) => {
+const Menu = () => {
     useEffect(()=>{
         Aos.init({duration: 1000})
       }, []);

@@ -15,10 +15,9 @@ function App() {
     <ScrollToTop />
     <Switch>
     <Route exact path="/" component={Home} />
-    <Route path="/New-Bluebell/home" component={Home} />
-    <Route path="/New-Bluebell/home#header" component={Home} />
-    <Route path="/New-Bluebell/menu" component={Menu} />
-    <Route path="/New-Bluebell/gallery" component={Gallery} />
+    <Route path="/home" component={Home} />
+    <Route path="/menu" component={Menu} />
+    <Route path="/gallery" component={Gallery} />
     </Switch>
     <Footer />
     </div>
