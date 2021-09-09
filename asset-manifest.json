@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/New-Bluebell/static/css/main.9e22dec7.chunk.css",
-    "main.js": "/New-Bluebell/static/js/main.183f47e8.chunk.js",
-    "main.js.map": "/New-Bluebell/static/js/main.183f47e8.chunk.js.map",
+    "main.js": "/New-Bluebell/static/js/main.3c923bf2.chunk.js",
+    "main.js.map": "/New-Bluebell/static/js/main.3c923bf2.chunk.js.map",
     "runtime-main.js": "/New-Bluebell/static/js/runtime-main.26f3ad45.js",
     "runtime-main.js.map": "/New-Bluebell/static/js/runtime-main.26f3ad45.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/New-Bluebell/static/css/2.7fc9bc2b.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.651f3b42.chunk.js",
     "static/css/main.9e22dec7.chunk.css",
-    "static/js/main.183f47e8.chunk.js"
+    "static/js/main.3c923bf2.chunk.js"
   ]
 }
