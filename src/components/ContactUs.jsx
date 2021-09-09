@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
     return(
         <div className="contact_us" id="contact_us">
-            <img className="giff" src="https://bazilmalekar.github.io/New-Bluebell/images/giff1.gif" alt="service"></img>
+            {/* <img className="giff" src="https://bazilmalekar.github.io/New-Bluebell/public/images/giff1.gif" alt="service"></img> */}
             <h3>Service options</h3>
             <p><span>Dine-in</span> <span>Takeaway</span> <span> Delivery</span></p>
             <h3>Hours</h3>

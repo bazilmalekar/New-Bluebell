@@ -15,8 +15,8 @@ function App() {
     <ScrollToTop />
     <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/New-Bluebell" component={Home} />
     <Route path="/New-Bluebell/home" component={Home} />
+    <Route path="/New-Bluebell/home#header" component={Home} />
     <Route path="/New-Bluebell/menu" component={Menu} />
     <Route path="/New-Bluebell/gallery" component={Gallery} />
     </Switch>
