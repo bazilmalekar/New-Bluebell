@@ -5,14 +5,20 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {BrowserRouter} from "react-router-dom";
 import SimpleReactLightbox from 'simple-react-lightbox'
+import store from "./redux/store";
+import {Provider} from "react-redux";
+
+store.subscribe(()=> console.log(store.getState()));
 
 ReactDOM.render(
   <React.StrictMode>
+  <Provider store={store}>
   <BrowserRouter>
   <SimpleReactLightbox>
   <App />
   </SimpleReactLightbox>
   </BrowserRouter>
+  </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

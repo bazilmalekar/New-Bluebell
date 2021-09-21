@@ -3,19 +3,19 @@ import MenuDivNonVeg from "./MenuDivNonVeg";
 import MenuDivVeg from "./MenuDivVeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import { useDispatch } from "react-redux";
+import { navTrue} from "../redux/actions/index";
 
 const Menu = () => {
     useEffect(()=>{
         Aos.init({duration: 1000})
       }, []);
-    // function callChange() {
-    //     changeNav();
-    // }
 
-    // useEffect(()=>{
-    //     callChange();
-    // });
+    const dispatch = useDispatch();
+    useEffect(()=>{
+        dispatch(navTrue());
+    }, []);
+
     return (
         <div className="menu-item" id="menu">
         <div className="nonveg"></div>

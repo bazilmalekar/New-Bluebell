@@ -2,11 +2,18 @@ import React, {useEffect} from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useDispatch } from "react-redux";
+import { navTrue} from "../redux/actions/index";
 
 const Gallery = () => {
     useEffect(()=>{
         Aos.init({duration: 1000})
       }, []);
+
+    const dispatch = useDispatch();
+    useEffect(()=>{
+        dispatch(navTrue());
+    }, []);
     return (
         <div className="custom-container" id="gallery">
         <div className="restaurant_gallery">
