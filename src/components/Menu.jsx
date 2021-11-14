@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import MenuDivNonVeg from "./MenuDivNonVeg";
 import MenuDivVeg from "./MenuDivVeg";
+import Apetizers from "./Apetizers";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useDispatch } from "react-redux";
@@ -18,14 +19,22 @@ const Menu = () => {
 
     return (
         <div className="menu-item" id="menu">
-        <div className="nonveg"></div>
-        <div data-aos="fade-up">
-        <MenuDivNonVeg />
-        </div>
-        <div className="veg"></div>
-        <div data-aos="fade-up">
-        <MenuDivVeg />
-        </div>
+            <div className="apetizers"></div>
+
+            <div data-aos="fade-up">
+                <Apetizers />
+            </div>
+
+            <div className="nonveg"></div>
+            <div data-aos="fade-up">
+                <MenuDivNonVeg />
+            </div>
+
+            <div className="veg"></div>
+            <div data-aos="fade-up">
+                <MenuDivVeg />
+            </div>
+
         </div>
     );
 }

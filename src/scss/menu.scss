@@ -1,19 +1,18 @@
+@import "mixins";
+
+.apetizers{
+    @include background-fix;
+    background-image: url("/src/images/apetizers.jpg");
+}
+
 .nonveg{
-    height: 20rem;
+    @include background-fix;
     background-image: url("/src/images/menuNonveg.jpg");
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    background-attachment: fixed;
 }
 
 .veg{
-    height: 25rem;
+    @include background-fix;
     background-image: url("/src/images/menuVeg.jpg");
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    background-attachment: fixed;
 }
 
 .menu-title{
@@ -29,6 +28,53 @@
     box-shadow: 0 8px 15px 1px #888888;
 }
 
+.table{
+    text-align: center;
+    width: 100%;
+}
+
+.dots_cuesine{
+    position: relative;
+    z-index: 1;
+    width: 50%;
+}
+
+.table_cuesine_background{
+    background-color: $body-background-color; 
+}
+
+.dots_cuesine::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    border-bottom: 2px dotted black;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    z-index: -1;
+}
+
+
+.dots_price{
+    position: relative;
+    z-index: 1;
+
+}
+
+.table_price_background{
+    background-color: $body-background-color; 
+}
+
+.dots_price::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    border-bottom: 2px dotted black;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    z-index: -1;
+}
 
 
 

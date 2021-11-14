@@ -1,10 +1,7 @@
-import React from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React, {useEffect} from "react";
 
-const MenuDivNonVeg = () => {
-    
-    return (
+const Apetizers = () => {
+    return(
         <>
         <div className="custom-container">
             <div className="menu-div">
@@ -67,4 +64,4 @@ const MenuDivNonVeg = () => {
     );
 }
 
-export default MenuDivNonVeg;
+export default Apetizers;
