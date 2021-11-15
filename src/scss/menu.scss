@@ -5,14 +5,64 @@
     background-image: url("/src/images/apetizers.jpg");
 }
 
-.nonveg{
+.special_mocktail{
     @include background-fix;
-    background-image: url("/src/images/menuNonveg.jpg");
+    background-image: url("/src/images/special_mocktail.jpg");
 }
 
-.veg{
+.veg_soup{
     @include background-fix;
-    background-image: url("/src/images/menuVeg.jpg");
+    background-image: url("/src/images/veg_soup.jpg");
+}
+
+.chicken_soup{
+    @include background-fix;
+    background-image: url("/src/images/chicken_soup.jpg");
+}
+
+.veg_starters{
+    @include background-fix;
+    background-image: url("/src/images/veg_starters.jpg");
+}
+
+.egg_starters{
+    @include background-fix;
+    background-image: url("/src/images/egg_starter.jpg");
+}
+
+.non_veg_starters{
+    @include background-fix;
+    background-image: url("/src/images/non_veg_starter.jpg");
+}
+
+.fish_items{
+    @include background-fix;
+    background-image: url("/src/images/fish_fry.jpg");
+}
+
+.veg_tandoori{
+    @include background-fix;
+    background-image: url("/src/images/tandooi_starters.jpg");
+}
+
+.non_veg_tandoori{
+    @include background-fix;
+    background-image: url("/src/images/tandoori_nonveg.jpg");
+}
+
+.noodles{
+    @include background-fix;
+    background-image: url("/src/images/noodles.jpg");
+}
+
+.sizzlers{
+    @include background-fix;
+    background-image: url("/src/images/sizzler.jpg");
+}
+
+.veg_main_course{
+    @include background-fix;
+    background-image: url("/src/images/veg_main_course.jpg");
 }
 
 .menu-title{

@@ -127,21 +127,101 @@ header {
   background-attachment: fixed;
   background-image: url("/src/images/apetizers.jpg"); }
 
-.nonveg {
+.special_mocktail {
   height: 25rem;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
-  background-image: url("/src/images/menuNonveg.jpg"); }
+  background-image: url("/src/images/special_mocktail.jpg"); }
 
-.veg {
+.veg_soup {
   height: 25rem;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
-  background-image: url("/src/images/menuVeg.jpg"); }
+  background-image: url("/src/images/veg_soup.jpg"); }
+
+.chicken_soup {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/chicken_soup.jpg"); }
+
+.veg_starters {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/veg_starters.jpg"); }
+
+.egg_starters {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/egg_starter.jpg"); }
+
+.non_veg_starters {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/non_veg_starter.jpg"); }
+
+.fish_items {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/fish_fry.jpg"); }
+
+.veg_tandoori {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/tandooi_starters.jpg"); }
+
+.non_veg_tandoori {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/tandoori_nonveg.jpg"); }
+
+.noodles {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/noodles.jpg"); }
+
+.sizzlers {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/sizzler.jpg"); }
+
+.veg_main_course {
+  height: 25rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-image: url("/src/images/veg_main_course.jpg"); }
 
 .menu-title {
   text-align: center; }
