@@ -65,6 +65,31 @@
     background-image: url("/src/images/veg_main_course.jpg");
 }
 
+.egg_main_course{
+    @include background-fix;
+    background-image: url("/src/images/egg_main_course.jpg");
+}
+
+.chicken_main_course{
+    @include background-fix;
+    background-image: url("/src/images/chicken_main_course.jpg");
+}
+
+.fruit_juice{
+    @include background-fix;
+    background-image: url("/src/images/fruit_juice.jpg");
+}
+
+.cold_drinks{
+    @include background-fix;
+    background-image: url("/src/images/cold_drinks.jpg");
+}
+
+.ice_cream{
+    @include background-fix;
+    background-image: url("/src/images/ice_cream.jpg");
+}
+
 .menu-title{
     text-align: center;
 }
@@ -126,5 +151,17 @@
     z-index: -1;
 }
 
+.category_btn{
+    width: 100%;
+    margin-top: 5.2rem;
+    position: fixed;
+    background-color: $footer-background0color;
+    z-index: 2;
+}
 
 
+@media screen and (max-width: 992px){
+    .category_btn{
+        margin-top: 4.5rem;
+    }
+}

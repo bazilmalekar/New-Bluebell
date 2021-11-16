@@ -1,5 +1,4 @@
 import React from "react";
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 const VegMainCourse = () => {
@@ -20,123 +19,123 @@ const VegMainCourse = () => {
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Butter Dal Fry</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹139</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Dal Tadka</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹139</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Dal Methi</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹139</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Dal Palak</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹139</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Dal Kolhapuri</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹139</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Tomato Masala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Capsicum Masala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Kadai</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Hydrabadi</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Tawa Sabji</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Makhanwala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Diwani Tarkari</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Sabji Darbar</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Alu Palak</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Alu Gobi Masala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹169</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Palak Paneer</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Paneer Kadai</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Paneer Butter Masala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Kaju Kurma</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Kaju Kadai</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Kaju Makhanwala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Kaju Kolhapuri</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Balti</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Bhuna Masala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Sharm Saver</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Malai Kofta</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Noorani</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Patiyala</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Jellfrze</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹179</span></td>
                         </tr>
                         <tr>
                             <td  className="dots_cuesine"><span className="table_cuesine_background">Veg Blue Bell Special</span></td>
-                            <td  className="dots_price"><span className="table_price_background">₹249</span></td>
+                            <td  className="dots_price"><span className="table_price_background">₹199</span></td>
                         </tr>
                     </table>
                     </div>
