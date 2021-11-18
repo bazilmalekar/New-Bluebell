@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;500&family=Roboto+Slab&display=swap");
 header {
   height: 38rem;
   width: 100%;
@@ -8,9 +9,10 @@ header {
   background-attachment: fixed;
   margin-top: -5.5rem; }
   header .header-text {
-    color: red;
+    color: #f2AA4CFF;
     text-align: center;
-    padding-top: 16rem; }
+    padding-top: 16rem;
+    font-family: "Dancing Script", cursive; }
 
 .h-nav {
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -45,29 +47,19 @@ header {
     color: #d79300;
     transform: rotate(45deg); }
 
-.home-mainbody {
-  height: auto;
-  padding-top: 4%;
-  padding-bottom: 3%; }
-  .home-mainbody .column {
-    text-align: center;
-    margin: 0 auto; }
-    .home-mainbody .column img {
-      height: 20rem;
-      width: 25rem;
-      border-radius: 0.5rem;
-      box-shadow: 1px 8px 15px 4px #888888;
-      margin-bottom: 2rem; }
-      .home-mainbody .column img:hover {
-        box-shadow: none; }
-    .home-mainbody .column .description {
-      width: 85%;
-      text-align: center;
-      margin: 2rem auto; }
-    .home-mainbody .column .figure {
-      height: 20rem;
-      width: 25rem; }
+.intro_column1,
+.intro_column2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
 
+.intro_text {
+  text-align: center;
+  width: 70%; }
+
+/*******flip-box**********/
 .flip-box {
   background-color: transparent;
   width: 300px;
@@ -95,13 +87,30 @@ header {
 
 .flip-box-front {
   background-color: #bbb;
-  color: black; }
+  color: black;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  outline: none;
+  border: none; }
+  .flip-box-front img {
+    width: 100%;
+    height: 100%; }
 
 .flip-box-back {
   background-color: dodgerblue;
   color: white;
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  outline: none;
+  border: none; }
+  .flip-box-back img {
+    width: 100%;
+    height: 100%; }
 
+@media screen and (max-width: 992px) {
+  .intro_column2 {
+    margin-top: 2rem; } }
 .contact_us {
   padding: 2rem 0;
   text-align: center;
@@ -313,15 +322,22 @@ header {
   left: 0;
   z-index: -1; }
 
-.category_btn {
-  width: 100%;
-  margin-top: 5.2rem;
-  position: fixed;
-  background-color: #444941;
-  z-index: 2; }
+.aside {
+  display: flex;
+  flex-direction: column !important;
+  margin-top: 5.5rem;
+  background-color: #18333c; }
+
+.custom_aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.custom_cat_btn {
+  background-color: greenyellow; }
 
 @media screen and (max-width: 992px) {
-  .category_btn {
+  .aside {
     margin-top: 4.5rem; } }
 .restaurant_gallery {
   text-align: center;
@@ -345,7 +361,7 @@ header {
 @media only screen and (max-width: 992px) {
   .testimage {
     height: 15rem;
-    width: 25rem; } }
+    width: 20rem; } }
 footer {
   display: flex;
   flex-direction: row;
@@ -401,5 +417,15 @@ body {
   padding-left: 8%;
   margin-right: auto;
   margin-left: auto; }
+
+h1 {
+  font-family: "Arvo", serif; }
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

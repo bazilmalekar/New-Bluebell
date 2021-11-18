@@ -21,6 +21,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useDispatch } from "react-redux";
 import { navTrue} from "../redux/actions/index";
+import { HashLink } from 'react-router-hash-link';
 
 const Menu = () => {
     useEffect(()=>{
@@ -33,140 +34,120 @@ const Menu = () => {
     }, []);
 
     return (
-        <>
+        <>                 
             <div className="menu-item" id="menu">
+                {/* <div className="category_btn">
+                    <HashLink to="#Apetizers" type="button" className="btn btn-warning">Apetizers</HashLink>
+                    <HashLink to="#SpecialMocktail" type="button" className="btn btn-warning">Special Mocktails</HashLink>
+                    <HashLink to="#VegSoup" type="button" className="btn btn-warning">Veg Soup</HashLink>
+                    <HashLink to="#NonVegSoup" type="button" className="btn btn-warning">Non Veg Soup</HashLink>
+                    <HashLink to="#VegStarters" type="button" className="btn btn-warning">Veg Starters</HashLink>
+                    <HashLink to="#EggStarters" type="button" className="btn btn-warning">Egg Starters</HashLink>
+                    <HashLink to="#NonVegStarters" type="button" className="btn btn-warning">Non Veg Starters</HashLink>
+                    <HashLink to="#FishItems" type="button" className="btn btn-warning">Fish Items</HashLink>
+                    <HashLink to="#VegTandooriStarters" type="button" className="btn btn-warning">Tandoori Starters (Veg)</HashLink>
+                    <HashLink to="#NonVegTandooriStarters" type="button" className="btn btn-warning">Tandoori Starters (Non Veg)</HashLink>
+                    <HashLink to="#Noodles" type="button" className="btn btn-warning">Noodles</HashLink>
+                    <HashLink to="#Sizzlers" type="button" className="btn btn-warning">Sizzlers</HashLink>
+                    <HashLink to="#VegMainCourse" type="button" className="btn btn-warning">Veg Main Course</HashLink>
+                    <HashLink to="#EggMainCourse" type="button" className="btn btn-warning">Egg Main Course</HashLink>
+                    <HashLink to="#ChickenMainCourse" type="button" className="btn btn-warning">Chicken Main Course</HashLink>
+                    <HashLink to="#FruitJuice" type="button" className="btn btn-warning">Fruit Juice</HashLink>
+                    <HashLink to="#ColdDrinks" type="button" className="btn btn-warning">Cold Drinks</HashLink>
+                    <HashLink to="#IceCream" type="button" className="btn btn-warning">Ice-Cream</HashLink>
+                </div> */}
 
-                {/* <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light category_btn">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav> */}
-
-                <div className="category_btn">
-                    <h1>hi</h1>
-                </div>
-                
-                <div className="apetizers"></div>
+                <div className="apetizers" id="Apetizers"></div>
                 <div data-aos="fade-up">
                     <Apetizers />
                 </div>
 
-                <div className="special_mocktail"></div>
+                <div className="special_mocktail" id="SpecialMocktail"></div>
                 <div data-aos="fade-up">
                     <SpecialMocktail />
                 </div>
 
-                <div className="veg_soup"></div>
+                <div className="veg_soup" id="VegSoup"></div>
                 <div data-aos="fade-up">
                     <VegSoup />
                 </div>
 
-                <div className="chicken_soup"></div>
+                <div className="chicken_soup" id="NonVegSoup"></div>
                 <div data-aos="fade-up">
                     <NonVegSoup />
                 </div>
 
-                <div className="veg_starters"></div>
+                <div className="veg_starters" id="VegStarters"></div>
                 <div data-aos="fade-up">
                     <VegStarters />
                 </div>
 
-                <div className="egg_starters"></div>
+                <div className="egg_starters" id="EggStarters"></div>
                 <div data-aos="fade-up">
                     <EggStarters />
                 </div>
 
-                <div className="non_veg_starters"></div>
+                <div className="non_veg_starters" id="NonVegStarters"></div>
                 <div data-aos="fade-up">
                     <NonVegStarters />
                 </div>
 
-                <div className="fish_items"></div>
+                <div className="fish_items" id="FishItems"></div>
                 <div data-aos="fade-up">
                     <FishItems />
                 </div>
 
-                <div className="veg_tandoori"></div>
+                <div className="veg_tandoori" id="VegTandooriStarters"></div>
                 <div data-aos="fade-up">
                     <VegTandooriStarters />
                 </div>
 
-                <div className="non_veg_tandoori"></div>
+                <div className="non_veg_tandoori" id="NonVegTandooriStarters"></div>
                 <div data-aos="fade-up">
                     <NonVegTandooriStarters />
                 </div>
 
-                <div className="noodles"></div>
+                <div className="noodles" id="Noodles"></div>
                 <div data-aos="fade-up">
                     <Noodles />
                 </div>
 
-                <div className="sizzlers"></div>
+                <div className="sizzlers" id="Sizzlers"></div>
                 <div data-aos="fade-up">
                     <Sizzlers />
                 </div>
 
-                <div className="veg_main_course"></div>
+                <div className="veg_main_course" id="VegMainCourse"></div>
                 <div data-aos="fade-up">
                     <VegMainCourse />
                 </div>
 
-                <div className="egg_main_course"></div>
+                <div className="egg_main_course" id="EggMainCourse"></div>
                 <div data-aos="fade-up">
                     <EggMainCourse />
                 </div>
 
-                <div className="chicken_main_course"></div>
+                <div className="chicken_main_course" id="ChickenMainCourse"></div>
                 <div data-aos="fade-up">
                     <ChickenMainCourse />
                 </div>
 
-                <div className="fruit_juice"></div>
+                <div className="fruit_juice" id="FruitJuice"></div>
                 <div data-aos="fade-up">
                     <FruitJuice />
                 </div>
 
-                <div className="cold_drinks"></div>
+                <div className="cold_drinks" id="ColdDrinks"></div>
                 <div data-aos="fade-up">
                     <ColdDrinks />
                 </div>
 
-                <div className="ice_cream"></div>
+                <div className="ice_cream" id="IceCream"></div>
                 <div data-aos="fade-up">
                     <IceCream />
                 </div>
 
-            </div>
+            </div>  
         </>
     );
 }

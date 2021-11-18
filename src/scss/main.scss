@@ -9,7 +9,7 @@
 @import "ScrollToTop";
 @import "MenuTable";
 @import "mixins";
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;500&family=Roboto+Slab&display=swap');
 html {
     scroll-behavior: smooth;
   }
@@ -23,6 +23,19 @@ body{
     padding-left: 8%;
     margin-right: auto;
     margin-left: auto;
+}
+
+h1{
+    font-family: $h1;
+}
+
+h3{
+    font-family: $h3;
+    font-weight: bolder;
+}
+
+p{
+    font-family: $p;
 }
 
 

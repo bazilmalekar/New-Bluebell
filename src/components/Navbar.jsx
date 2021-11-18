@@ -44,17 +44,42 @@ const Navbar = (props) => {
 
              <div className="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul className="navbar-nav ml-auto custom-nav-list">
-                    <li className="nav-item actives">
+                    <li className="nav-item">
                     <HashLink  onClick={()=> dispatch(navFalse())}  className="nav-link" to="/New-Bluebell/home#header">Home</HashLink>
                     </li>
-                    <li className="nav-item">
-                    <NavLink onClick={()=> dispatch(navTrue())} className="nav-link" to="/New-Bluebell/menu">Menu</NavLink>
+                    {/* <li className="nav-item">
+                    <NavLink onClick={()=> dispatch(navTrue())} className="nav-link" to="/New-Bluebell/menu/">Menu</NavLink>
+                    </li> */}
+                    <li className="nav-item dropdown" >
+                        <NavLink onClick={()=> dispatch(navTrue())} className="nav-link dropdown-toggle" to="/New-Bluebell/menu/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                        </NavLink>
+                        <div className="dropdown-menu bg-dark mr-5 active" aria-labelledby="navbarDropdown">
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#Apetizers">Apetizers</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#SpecialMocktail">Special Mocktails</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#VegSoup">Veg Soup</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#NonVegSoup">Non Veg Soup</HashLink> 
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#VegStarters">Veg Starters</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#EggStarters">Egg Starters</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#NonVegStarters">Non Veg Starters</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#FishItems">Fish Items</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#VegTandooriStarters">Tandoori Starters(Veg)</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#NonVegTandooriStarters">Tandoori Starters(Non Veg)</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#Noodles">Noodles</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#Sizzlers">Sizzlers</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#VegMainCourse">Veg Main Course</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#EggMainCourse">Egg Main Course</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#ChickenMainCourse">Chicken Main Course</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#FruitJuice">Fruit Juice</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#ColdDrinks">Cold Drinks</HashLink>
+                            <HashLink className="dropdown-item bg-dark" to="/New-Bluebell/menu/#IceCream">Ice-Cream</HashLink>         
+                        </div>
                     </li>
                     <li className="nav-item">
                     <NavLink onClick={()=> dispatch(navTrue())} className="nav-link" to="/New-Bluebell/gallery">Gallery</NavLink>
                     </li>
                     <li className="nav-item">
-                    <HashLink className="nav-link" to="/New-Bluebell/home#contact_us">Contact Us</HashLink>
+                    <HashLink onClick={()=> dispatch(navTrue())} className="nav-link" to="/New-Bluebell/home#contact_us">Contact Us</HashLink>
                     </li>
                 </ul>
             </div>
