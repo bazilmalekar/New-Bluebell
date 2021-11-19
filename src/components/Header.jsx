@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <div className="header-text" id="header">
             <div data-aos="slide-down">
-            <h1>New BlueBells</h1>
+            <h1>New BlueBell</h1>
             <h4>Family Restaurant & Event Place</h4>
             </div>
             </div>

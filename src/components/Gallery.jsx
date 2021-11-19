@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useDispatch } from "react-redux";
 import { navTrue} from "../redux/actions/index";
+import {Helmet} from "react-helmet";
 
 const Gallery = () => {
     useEffect(()=>{
@@ -17,6 +18,10 @@ const Gallery = () => {
     return (
         <>
          <div className="row m-0 p-0" id="gallery" >
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>New BlueBell: Gallery</title>                    
+            </Helmet>
             <div className="col-11 mx-auto restaurant_gallery">
                 <div data-aos="fade-up" className="restaurent-section">
                     <h1>Restaurant</h1>

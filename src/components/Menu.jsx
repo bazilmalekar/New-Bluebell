@@ -21,7 +21,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useDispatch } from "react-redux";
 import { navTrue} from "../redux/actions/index";
-import { HashLink } from 'react-router-hash-link';
+import {Helmet} from "react-helmet";
 
 const Menu = () => {
     useEffect(()=>{
@@ -36,26 +36,10 @@ const Menu = () => {
     return (
         <>                 
             <div className="menu-item" id="menu">
-                {/* <div className="category_btn">
-                    <HashLink to="#Apetizers" type="button" className="btn btn-warning">Apetizers</HashLink>
-                    <HashLink to="#SpecialMocktail" type="button" className="btn btn-warning">Special Mocktails</HashLink>
-                    <HashLink to="#VegSoup" type="button" className="btn btn-warning">Veg Soup</HashLink>
-                    <HashLink to="#NonVegSoup" type="button" className="btn btn-warning">Non Veg Soup</HashLink>
-                    <HashLink to="#VegStarters" type="button" className="btn btn-warning">Veg Starters</HashLink>
-                    <HashLink to="#EggStarters" type="button" className="btn btn-warning">Egg Starters</HashLink>
-                    <HashLink to="#NonVegStarters" type="button" className="btn btn-warning">Non Veg Starters</HashLink>
-                    <HashLink to="#FishItems" type="button" className="btn btn-warning">Fish Items</HashLink>
-                    <HashLink to="#VegTandooriStarters" type="button" className="btn btn-warning">Tandoori Starters (Veg)</HashLink>
-                    <HashLink to="#NonVegTandooriStarters" type="button" className="btn btn-warning">Tandoori Starters (Non Veg)</HashLink>
-                    <HashLink to="#Noodles" type="button" className="btn btn-warning">Noodles</HashLink>
-                    <HashLink to="#Sizzlers" type="button" className="btn btn-warning">Sizzlers</HashLink>
-                    <HashLink to="#VegMainCourse" type="button" className="btn btn-warning">Veg Main Course</HashLink>
-                    <HashLink to="#EggMainCourse" type="button" className="btn btn-warning">Egg Main Course</HashLink>
-                    <HashLink to="#ChickenMainCourse" type="button" className="btn btn-warning">Chicken Main Course</HashLink>
-                    <HashLink to="#FruitJuice" type="button" className="btn btn-warning">Fruit Juice</HashLink>
-                    <HashLink to="#ColdDrinks" type="button" className="btn btn-warning">Cold Drinks</HashLink>
-                    <HashLink to="#IceCream" type="button" className="btn btn-warning">Ice-Cream</HashLink>
-                </div> */}
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>New BlueBell: Menu</title>                    
+                </Helmet>
 
                 <div className="apetizers" id="Apetizers"></div>
                 <div data-aos="fade-up">
