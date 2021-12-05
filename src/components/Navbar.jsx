@@ -9,23 +9,13 @@ import {navFalse, navTrue} from "../redux/actions/index";
 const Navbar = (props) => {
     const navState = useSelector((state)=> state.changeNav);
     const dispatch = useDispatch();
-
-    // const [navValue, setNavValue] = useState(false);
     const [scroll, setScroll] = useState(false);
-
-    // function changeNav(){
-    //     ()=> dispatch(navTrue());
-    // }
-
-    // function changeDefault(){
-    //     setNavValue(false);
-    // } 
 
     const scrollClass = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark h-nav";
     const scrollChange = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark h-nav change";
 
     window.addEventListener("scroll", ()=>{
-        if(window.scrollY >= 480){
+        if(window.scrollY >= 400){
             setScroll(true);
         }else{
             setScroll(false);
@@ -47,9 +37,6 @@ const Navbar = (props) => {
                     <li className="nav-item">
                     <HashLink  onClick={()=> dispatch(navFalse())}  className="nav-link" to="/New-Bluebell/home#header">Home</HashLink>
                     </li>
-                    {/* <li className="nav-item">
-                    <NavLink onClick={()=> dispatch(navTrue())} className="nav-link" to="/New-Bluebell/menu/">Menu</NavLink>
-                    </li> */}
                     <li className="nav-item dropdown" >
                         <NavLink onClick={()=> dispatch(navTrue())} className="nav-link dropdown-toggle" to="/New-Bluebell/menu/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Menu

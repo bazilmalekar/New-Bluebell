@@ -26,7 +26,7 @@ const Gallery = () => {
                 <div data-aos="fade-up" className="restaurent-section">
                     <h1>Restaurant</h1>
                     <SRLWrapper>
-                    <a href="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" data-lightbox="mygallery"><img className="testimage" src="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" alt="Restaurant pics"></img></a>
+                    <a href="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" data-lightbox="mygallery"><img className="testimage" src="https://bazilmalekar.github.io/New-Bluebell/images/gallery/restaurent/g1.jpg" alt="Restaurant pics"></img></a>
                     <a href="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" data-lightbox="mygallery"><img className="testimage" src="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" alt="Restaurant pics"></img></a>
                     <a href="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" data-lightbox="mygallery"><img className="testimage" src="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" alt="Restaurant pics"></img></a>
                     <a href="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" data-lightbox="mygallery"><img className="testimage" src="https://bazilmalekar.github.io/New-Bluebell/images/gallery/image1.jpg" alt="Restaurant pics"></img></a>

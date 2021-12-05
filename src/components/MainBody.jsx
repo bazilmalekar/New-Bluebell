@@ -18,7 +18,7 @@ const MainBody = () => {
                     <div class="flip-box">
                       <div class="flip-box-inner">
                         <div class="flip-box-front">
-                          <img src="https://bazilmalekar.github.io/New-Bluebell/images/landingPage/fl.jpg"></img>
+                          <img src="https://bazilmalekar.github.io/New-Bluebell/images/landingPage/f1.jpg"></img>
                         </div>
                         <div class="flip-box-back">
                           <img src="https://bazilmalekar.github.io/New-Bluebell/images/landingPage/b1.jpg"></img>
@@ -37,10 +37,10 @@ const MainBody = () => {
                     <div class="flip-box">
                       <div class="flip-box-inner">
                         <div class="flip-box-front">
-                          <img src="images/dummy.jpg"></img>
+                          <img src="https://bazilmalekar.github.io/New-Bluebell/images/landingPage/f2.jpg"></img>
                         </div>
                         <div class="flip-box-back">
-                          <img src="images/dummy.jpg"></img>
+                          <img src="https://bazilmalekar.github.io/New-Bluebell/images/landingPage/b2.jpg"></img>
                         </div>
                       </div>
                     </div>
