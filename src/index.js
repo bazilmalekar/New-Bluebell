@@ -12,13 +12,13 @@ store.subscribe(()=> console.log(store.getState()));
 
 ReactDOM.render(
   <React.StrictMode>
-  <Provider store={store}>
-  <BrowserRouter>
-  <SimpleReactLightbox>
-  <App />
-  </SimpleReactLightbox>
-  </BrowserRouter>
-  </Provider>
+    <Provider store={store}>
+      <BrowserRouter>
+        <SimpleReactLightbox>
+          <App />
+        </SimpleReactLightbox>
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
